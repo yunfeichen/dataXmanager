@@ -1,0 +1,12 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.openaidata.dataX.DemoApplication",
+      "name": "spring.datasource.druid",
+      "sourceMethod": "public javax.sql.DataSource druid() ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
