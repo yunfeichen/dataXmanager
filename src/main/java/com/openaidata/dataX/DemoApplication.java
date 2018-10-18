@@ -36,7 +36,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 		return ds;
 	}
 	
-	//娉ㄥ唽鍚庡彴鐣岄潰Servlet Bean锛岀敤浜庢樉绀哄悗鍙扮晫闈�
+	//start
 	@Bean
 	public ServletRegistrationBean statViewServlet() {
 		ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(new StatViewServlet(), "/druid/*");
